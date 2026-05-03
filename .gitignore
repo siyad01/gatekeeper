@@ -3,3 +3,4 @@ audit.log
 logs/
 *.env
 /tmp
+image.png

@@ -39,6 +39,7 @@ Agent ──► Slack MCP                       │──────► Slack M
 ❌ No health checks        ✅ Automatic health monitoring
 ❌ No visibility           ✅ Live dashboard
 ```
+![GateKeeper Dashboard](image.png)
 
 ## Quickstart
 
