@@ -1,0 +1,22 @@
+server:
+  port: "8080"
+  name: "gatekeeper"
+
+audit:
+  log_path: "logs/audit.log"
+
+rate_limit:
+  requests_per_window: 100
+  window_seconds: 60
+
+auth:
+  api_keys:
+    - key: "your-secret-key-here"
+      agent: "my-agent-name"
+    - key: "another-secret-key"
+      agent: "another-agent"
+
+mcp_servers:
+  - name: "your-server-name"
+    url: "http://your-mcp-server:3000"
+    prefix: "/mcp/your-server"
