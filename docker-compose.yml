@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  gatekeeper:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - ./logs:/app/logs
+    environment:
+      - CONFIG_PATH=/app/config.yaml
+    depends_on:
+      - mcp-echo
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  mcp-echo:
+    build: ../mcp-echo-server
+    ports:
+      - "9090:9090"
+    restart: unless-stopped

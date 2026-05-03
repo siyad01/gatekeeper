@@ -1,0 +1,5 @@
+{"id":"f17a7dbf-3d22-499e-a06e-9fb6aae9b09d","timestamp":"2026-05-02T06:46:17Z","agent_name":"local-dev","method":"GET","path":"/health","status":200,"duration":"2.032453ms","ip_address":"172.18.0.1:55104"}
+{"id":"e10755c0-fe6d-487c-9c1a-96f33ab999a6","timestamp":"2026-05-02T06:46:39Z","agent_name":"local-dev","method":"POST","path":"/mcp/echo","status":200,"duration":"111.409391ms","ip_address":"172.18.0.1:59836"}
+{"id":"7d3db474-97c6-4d88-9039-103d5114fdd5","timestamp":"2026-05-03T02:56:15Z","agent_name":"","method":"GET","path":"/health","status":200,"duration":"76.926µs","ip_address":"[::1]:41878"}
+{"id":"f57b3fc8-c6f3-4317-b1cc-8c77cec822d8","timestamp":"2026-05-03T02:56:48Z","agent_name":"","method":"GET","path":"/health","status":200,"duration":"42.652µs","ip_address":"[::1]:35030"}
+{"id":"9c3900e0-af77-4007-9748-cf7a4fd6f0a7","timestamp":"2026-05-03T02:57:18Z","agent_name":"","method":"GET","path":"/health","status":200,"duration":"43.794µs","ip_address":"[::1]:59342"}
